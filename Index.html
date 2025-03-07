@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Торты и рецепты</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Рецепты тортов</h1>
+        <p>Попробуйте наши лучшие рецепты тортов!</p>
+    </header>
+
+    <main>
+        <section class="cake-grid">
+            <!-- Торт 1 -->
+            <div class="cake-card">
+                <img src="images/cake1.jpg" alt="Шоколадный торт">
+                <h2>Шоколадный торт</h2>
+                <p>Нежный шоколадный торт с глазурью.</p>
+                <button onclick="showRecipe('chocolate-cake')">Рецепт</button>
+            </div>
+
+            <!-- Торт 2 -->
+            <div class="cake-card">
+                <img src="images/cake2.jpg" alt="Клубничный торт">
+                <h2>Клубничный торт</h2>
+                <p>Легкий торт с клубникой и сливками.</p>
+                <button onclick="showRecipe('strawberry-cake')">Рецепт</button>
+            </div>
+
+            <!-- Торт 3 -->
+            <div class="cake-card">
+                <img src="images/cake3.jpg" alt="Медовик">
+                <h2>Медовик</h2>
+                <p>Классический медовый торт с кремом.</p>
+                <button onclick="showRecipe('honey-cake')">Рецепт</button>
+            </div>
+
+            <!-- Торт 4 -->
+            <div class="cake-card">
+                <img src="images/cake4.jpg" alt="Чизкейк">
+                <h2>Чизкейк</h2>
+                <p>Нежный чизкейк с ягодным топпингом.</p>
+                <button onclick="showRecipe('cheesecake')">Рецепт</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Рецепты тортов</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
